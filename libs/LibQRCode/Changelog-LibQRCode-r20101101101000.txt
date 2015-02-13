@@ -1,0 +1,106 @@
+wolftankk:
+	- Dump TOC to 40000
+	- TOC bump to 4.0
+	- minor bugs fixes.
+	- minor bugs fixes. update embedTypdaInfo
+	- major bugs fixes. now, in wow, It's working. it can general a numeric qrcode
+	- add MatrixUtil:embedDataBits
+	- update MatrixUtil findMSBCode, makeTypeInfoBits
+	- update .pkg file
+yaroot:
+	- chmod -x
+wolftankk:
+	- fix makeTypeInfoBits's arguments
+	- now i will calculate BCH code for typeinfo i find java code for lua
+	- add QRCode.isValidMaskPattern
+	- add MaskUtil minor bugs fixes
+	- -a error of GF256Poly construct function fixex. -update encode
+	- fix MatrixUtil
+	- fix a syntax error
+	- add BlockPair add QRCodeWrite
+	- add bMatrix.
+	- update version, mode
+	- add ec
+	- rebuild code.
+	- now addon loaded via lib.xml
+U-WOLFTANKK\Administrator:
+	- Add lib.xml for load
+	- add ignore file
+wolftankk:
+	- - major bugs fixes. - add BlockPair class.
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@35 eb97d260-d3d2-4885-ab86-618bba4096ac
+	- add toByte method. conver the number value to byte number value minor bugs fixes
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@34 eb97d260-d3d2-4885-ab86-618bba4096ac
+	- update all classes
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@33 eb97d260-d3d2-4885-ab86-618bba4096ac
+	- - add arraycopy (as jave) method - add new func
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@32 eb97d260-d3d2-4885-ab86-618bba4096ac
+	- - add some methods for BitArray. - add test units for BitArray.
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@31 eb97d260-d3d2-4885-ab86-618bba4096ac
+	- add QRCode test unit code minor bugs fixed
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@30 eb97d260-d3d2-4885-ab86-618bba4096ac
+	- fix a error where check more than one arguments
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@29 eb97d260-d3d2-4885-ab86-618bba4096ac
+	- - use closure of lua feature for QRCode class
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@28 eb97d260-d3d2-4885-ab86-618bba4096ac
+	- - update API doc
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@27 eb97d260-d3d2-4885-ab86-618bba4096ac
+	- - fixed .docmeta
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@26 eb97d260-d3d2-4885-ab86-618bba4096ac
+	- fix some bugs. i try fix encodering the contents to bits.
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@25 eb97d260-d3d2-4885-ab86-618bba4096ac
+	- add tex cache list. It can draw lefttop, leftbottom, righttop corner. next, i will draw QRCode format infomation
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@24 eb97d260-d3d2-4885-ab86-618bba4096ac
+	- the qrcode image can set width and set height for show the screen.
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@23 eb97d260-d3d2-4885-ab86-618bba4096ac
+	- -fixed tex setpoint's y value. now it cant reversed
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@22 eb97d260-d3d2-4885-ab86-618bba4096ac
+	- add a test code for wow. Now, you can see a miniature QRCode image
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@21 eb97d260-d3d2-4885-ab86-618bba4096ac
+	- add GF256, GF256Poly and ReedSolomonEncode for QRCode Encode class.
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@20 eb97d260-d3d2-4885-ab86-618bba4096ac
+	- add setup 8 for createMatrix. and setup 9, check qrcode is vaild?
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@19 eb97d260-d3d2-4885-ab86-618bba4096ac
+	- Add POSITION_ADJUSTMENT_PATTERN_COORDINATE_TABLE from Appendix E. table1 add TYPE_INFO_COORDINATES
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@18 eb97d260-d3d2-4885-ab86-618bba4096ac
+	- add MatrixUtil for drawing the QRCode image.
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@17 eb97d260-d3d2-4885-ab86-618bba4096ac
+	- QRCode need ReedSolomon class. next version, add ReedSolomon , GF256
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@16 eb97d260-d3d2-4885-ab86-618bba4096ac
+	- add setup 4 ~ 5 processes for Encoder method. now setup 6. interleave bits
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@15 eb97d260-d3d2-4885-ab86-618bba4096ac
+	- add initQRCode, continue. it will generate a two dimension array
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@14 eb97d260-d3d2-4885-ab86-618bba4096ac
+	- fix typo
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@13 eb97d260-d3d2-4885-ab86-618bba4096ac
+	- add BitArray class. it is a simple, fast table(lua) of bits. add Encoder:chooseMode for the content encoding to bit array.
+	LibQRCode usage:
+	local barcoder =LibStub(LibQRCode-1.0, content, width, height);
+	barcoder include frame, you can use SetPoint for localed anywhere.
+	barcoder.frame:Show(); It will localed the screen center if you cant use SetPoint.
+	
+	
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@12 eb97d260-d3d2-4885-ab86-618bba4096ac
+	- add QRCodeWrite, but i'm programming encoder contents for QRCodeWrite. QRCodeWrite is a drawing image class.
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@11 eb97d260-d3d2-4885-ab86-618bba4096ac
+	- add version 1 ~ version 10 in the lib for testing encode
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@10 eb97d260-d3d2-4885-ab86-618bba4096ac
+	- fix class-name qrcode to QRCode
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@9 eb97d260-d3d2-4885-ab86-618bba4096ac
+	- add ECBlock, ECB base class for Version. add ErrorCorrectionLevel class for the QRCode. this class includes L, M, Q, H. \ Version  add getVersionFromNumber method for getting >Version<
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@8 eb97d260-d3d2-4885-ab86-618bba4096ac
+	- add bytesMatrix, Version, Mode method class
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@7 eb97d260-d3d2-4885-ab86-618bba4096ac
+	- update .docmeta. fixed the doc output method
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@6 eb97d260-d3d2-4885-ab86-618bba4096ac
+	- rewrite methods of the qrcode base class, add .docmeta
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@5 eb97d260-d3d2-4885-ab86-618bba4096ac
+	- add compute matrix for qrcode version.
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@4 eb97d260-d3d2-4885-ab86-618bba4096ac
+	- Fixed LibStub checkout url for pkgmeta
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@3 eb97d260-d3d2-4885-ab86-618bba4096ac
+	- First, import files
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@2 eb97d260-d3d2-4885-ab86-618bba4096ac
+root:
+	- "libqrcode/mainline: Initial Import"
+	git-svn-id: svn+ssh://svn.wowace.com/wow/libqrcode/mainline/trunk@1 eb97d260-d3d2-4885-ab86-618bba4096ac

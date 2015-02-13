@@ -1,0 +1,9 @@
+## Interface: 60000
+## Title: QRComm
+## Notes: Communicate with an external application via QR codes.
+## SavedVariables: QRCommDB
+## Author: Outroot
+## Version: 0.1
+
+embeds.xml
+QRComm.lua
